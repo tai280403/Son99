@@ -37,8 +37,6 @@
         }
         .products {
             display: grid;
-            /* display: flex; */
-            /* justify-content: space-around; */
             grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
             gap: 5%;
             padding: 20px;
@@ -109,6 +107,30 @@
         h5{
             color: rgb(252, 213, 220);
         }
+         /* Responsive Design cho mobile trước */
+    @media (max-width: 580px) {
+        .menu {
+            flex-direction: column;
+            align-items: center;
+        }
+        .menu a {
+            margin: 5px 0;
+        }
+        .header {
+            padding: 10% 0;
+        }
+        .products {
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 5%;
+            height: 100%;
+            max-width: 100%;
+            margin: 1% auto;
+            flex-wrap: wrap;
+        }
+        .product img {
+            height: 60%;
+        }
+    }
     </style>
 </head>
 <body>
