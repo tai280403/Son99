@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa Hàng Phụ Kiện Sơn 99</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+
+        }
+        .header {
+            background-image: url('https://memon.vn/wp-content/uploads/2024/04/Thang-4_Banner.jpg');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 8% 0;
+        }
+        .menu {
+            background-color: #0056b3;
+            color: white;
+            display: flex;
+            padding: 1% 0;
+        }
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin: 0 25px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .menu a:hover {
+            text-decoration: underline;
+        }
+        .products {
+            display: grid;
+            /* display: flex; */
+            /* justify-content: space-around; */
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 5%;
+            padding: 20px;
+            height: 400px;
+            max-width: 100%;
+            margin: 1% auto;
+            flex-wrap: wrap;
+        }
+        .product {
+            background: #fff;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+        .product:hover {
+            transform: translateY(-5px);
+        }
+        .product img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-details {
+            padding: 4px;
+            text-align: center;
+        }
+        .product-details h3 {
+            font-size: 18px;
+            color: #333;
+            margin: 10px 0;
+        }
+        .product-details p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+        .product-details .price {
+            font-size: 16px;
+            color: #007bff;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .product-details button {
+            padding: 10px 15px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .product-details button:hover {
+            background-color: #0056b3;
+        }
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        h5{
+            color: rgb(252, 213, 220);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- <h1>Cửa Hàng Phụ Kiện Sơn 99 (Banner ở đây)</h1> -->
+        <h5>A Sơn 99</h5>
+    </div>
+    <div class="menu">
+        <a href="#">Trang Chủ</a>
+        <a href="#">Sản Phẩm</a>
+        <a href="#">Liên Hệ</a>
+        <a href="#">Giới Thiệu</a>
+    </div>
+    <div class="products">
+        <div class="product">
+            <img src="https://cf.shopee.vn/file/7dd537b21cddda9b5f3bbeb2c5c891e3" alt="Móc khóa">
+            <div class="product-details">
+                <h3>Móc khóa lợn</h3>
+                <p>Loại: Móc khóa</p>
+                <p class="price">50.000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/thumb/large/100/488/352/products/z5923118880546-8093619f2af7ea24e3087b5c38191da3-1728744224998.jpg?v=1728744587887" alt="Lego">
+            <div class="product-details">
+                <h3>Thú ngộ nghĩnh</h3>
+                <p>Loại: Thú ngộ nghĩnh</p>
+                <p class="price">29,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://cf.shopee.vn/file/7dd537b21cddda9b5f3bbeb2c5c891e3" alt="Xe Điều Khiển">
+            <div class="product-details">
+                <h3>Thú ngộ nghĩnh</h3>
+                <p>Loại: Đồ trang trí</p>
+                <p class="price">45,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/thumb/large/100/488/352/products/215e9372-22db-4711-a01f-1f2f9f4e7dc4.jpg?v=1725002693047" alt="Máy Bay">
+            <div class="product-details">
+                <h3>Thú ngộ nghĩnh nhiều hình</h3>
+                <p>Loại: Đồ trang trí </p>
+                <p class="price">28,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>      
+    </div>
+    <hr style="width: 96%;">
+    <div class="products">
+        <div class="product">
+            <img src="https://cf.shopee.vn/file/7dd537b21cddda9b5f3bbeb2c5c891e3" alt="Móc khóa">
+            <div class="product-details">
+                <h3>Thú ngộ nghĩnh nhiều hình</h3>
+                <p>Loại: Đồ trang trí</p>
+                <p class="price">50.000</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://bizweb.dktcdn.net/thumb/large/100/488/352/products/215e9372-22db-4711-a01f-1f2f9f4e7dc4.jpg?v=1725002693047" alt="Lego">
+            <div class="product-details">
+                <h3>Mô hình thú cute</h3>
+                <p>Loại: Mô hình</p>
+                <p class="price">29,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://cf.shopee.vn/file/7dd537b21cddda9b5f3bbeb2c5c891e3" alt="Xe Điều Khiển">
+            <div class="product-details">
+                <h3>Thú ngộ nghĩnh nhiều hình</h3>
+                <p>Loại: Đồ trang trí</p>
+                <p class="price">45,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>
+        <div class="product">
+            <img src="https://img.bestdealplus.com/ae01/kf/S5e93f8a6c13e40b99316818652dcf8ed2.jpg" alt="Máy Bay">
+            <div class="product-details">
+                <h3>Mô hình thú cute</h3>
+                <p>Loại: Mô hình</p>
+                <p class="price">28,000 VNĐ</p>
+                <a href="https://zaloapp.com/qr/p/pr8jy7iavbk7?src=qr" target="_blank"><button>Liên hệ mua ngay</button></a>
+            </div>
+        </div>      
+    </div>
+    <div class="footer">
+        <p>© 2025 Cửa Hàng Phụ Kiện Sơn 99. 09813212342.</p>
+    </div>
+</body>
+</html>
